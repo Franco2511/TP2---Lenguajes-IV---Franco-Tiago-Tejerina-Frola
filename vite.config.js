@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/TP2---Lenguajes-IV---Franco-Tiago-Tejerina-Frola/',
+  base: './',
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })
