@@ -1,5 +1,9 @@
 function Servicios() {
-  return <h1>Servicios</h1>
+  return (
+    <div className="text-center">
+      <h1 className="text-4xl font-bold text-white">Servicios</h1>
+    </div>
+  )
 }
 
 export default Servicios
